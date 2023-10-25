@@ -1,0 +1,26 @@
+body {
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 50vh;
+    padding: 20px;
+    column-gap: 20px;
+}
+
+.image {
+    border-radius: 20px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.button {
+    display: grid;
+    place-content: center;
+}
+.button__btn {
+    padding: 10px;
+    border-radius: 10px;
+}
